@@ -15,16 +15,19 @@ function App() {
           </div>
         </section>
       </nav> */}
+      
       <main>
-        <section className="medium-container">
-          <h2>Todos</h2>
-          <div className="todoapp">
-            <Header />
-            <TodoList />
-            <Footer />
-          </div>
-        </section>
+          <section className="medium-container">
+            <h2>Todos</h2>
+            <div className="todoapp">
+              <Header />
+              <TodoList />
+              <Footer />
+            </div>
+          </section>
       </main>
+
+
       <section>
         <h2>Welcome to the Redux Fundamentals example app!</h2>
       </section>
